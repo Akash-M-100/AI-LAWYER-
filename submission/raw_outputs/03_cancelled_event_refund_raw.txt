@@ -1,0 +1,107 @@
+﻿AI Law Chatbot
+Type 'exit' to quit. Ask a question about the indexed legal materials.
+
+You: 
+Agent: **Your Intake‑Note Draft (Event‑Ticket Refund Issue)**  
+
+---
+
+### 1. Facts you have already provided
+| Fact | Detail (as you told us) |
+|------|------------------------|
+| **Purchase** | Paid for an event ticket (through a ticket‑booking app). |
+| **Event status** | Organizer cancelled the event. |
+| **Refund claim** | The app shows “refund started”, but the money has not appeared in your account. |
+| **Current need** | A clear summary of the situation and a checklist of details/evidence to verify. |
+
+---
+
+### 2. Ordered Timeline (fill in dates you know)
+
+| # | Date (or “approx.”) | What happened |
+|---|---------------------|----------------|
+| 1 | **Ticket purchase** | – Amount paid <br> – Payment method (card, net‑banking, UPI, etc.) |
+| 2 | **Event cancellation notice** | – Date organizer announced cancellation <br> – How you were notified (email, app push, SMS) |
+| 3 | **Refund initiation shown in app** | – Date the app displayed “refund started” <br> – Any reference/transaction ID shown |
+| 4 | **Follow‑up / inquiry** | – Date you contacted the app/organiser <br> – Response received (if any) |
+| 5 | **Current status** | – Date you checked your bank/UPI account and still see no credit |
+
+*(Add any other steps – e.g., receipt of a “cancellation email”, a “refund acknowledgement” from the organiser, etc.)*
+
+---
+
+### 3. Missing Facts – Questions to ask yourself / to gather
+
+| Area | Specific question / detail needed |
+|------|------------------------------------|
+| **Payment details** | • Exact amount paid and currency <br>• Date & time of payment <br>• Transaction reference/ID (bank statement, screenshot) |
+| **Cancellation proof** | • Copy of the organiser’s cancellation notice (email, app screenshot, social‑media post) |
+| **Refund communication** | • Screenshot of the “refund started” status in the app (date & time) <br>• Any email/SMS from the app or organiser confirming the refund amount and expected timeline |
+| **Bank/UPI evidence** | • Latest bank/UPI statement showing no credit <br>• Date you last checked the statement |
+| **Contact attempts** | • Dates & modes of any follow‑up you made (calls, chats, emails) <br>• Replies received (if any) |
+| **Terms & conditions** | • The ticket‑app’s refund policy (especially any clause on event cancellation) <br>• Any specific deadline mentioned for claiming a refund |
+| **Other parties** | • Name of the event organiser, ticket‑app platform, and payment gateway (if different) |
+| **Legal notices** | • Have you sent a formal written notice to the organiser/app? If not, when do you plan to? |
+
+---
+
+### 4. Evidence / Documents to organise (use a folder or cloud drive)
+
+1. **Purchase proof** – receipt, order confirmation email, payment screenshot.  
+2. **Cancellation proof** – organiser’s announcement (email, screenshot).  
+3. **Refund‑status screenshot** – from the app showing “refund started”.  
+4. **Correspondence** – all emails/chats with the organiser or app support.  
+5. **Bank/UPI statements** – showing the original payment and the absence of a credit.  
+6. **Terms & Conditions** – PDF or screenshot of the app’s refund clause.  
+7. **Any notice you may send** – draft copy (you can use placeholders for dates/addresses).  
+
+---
+
+### 5. Relevant legal material (from the retrieved knowledge)
+
+- The court excerpts you provided discuss **refund claims being subject to a statutory limitation period (typically six months from the date of payment or delivery)** and the need for a **notice of claim** within that period.  
+- While those excerpts relate to railway freight charges, they illustrate a **general principle in Indian law** that a refund claim may be barred if not made within the prescribed limitation period.  
+- **Implication for you:**  
+  *Check when the event was cancelled and when you first sought the refund. If more than six months have passed, a limitation argument could arise (subject to the specific consumer‑protection statute that governs ticket sales).*
+
+> **Note:** The material does **not** directly address event‑ticket refunds, so you will need to look at the **Consumer Protection Act, 2019** (especially provisions on “deficiency in services” and “unfair trade practices”) and any specific clauses in the ticket‑app’s terms. Those statutes were not part of the retrieved dataset, so we cannot cite them here.
+
+---
+
+### 6. Next steps you can take now
+
+1. **Complete the timeline** with exact dates.  
+2. **Collect the documents** listed in section 4.  
+3. **Verify the limitation period** – count the days from the cancellation notice (or from the date you first requested a refund) to today.  
+4. **Draft a short formal notice** (you can use a placeholder format) to the ticket‑app/organiser, stating:  
+   - Your purchase details,  
+   - Cancellation notice,  
+   - Refund amount owed,  
+   - Request for payment within a reasonable period (e.g., 7‑10 days).  
+5. **If no response**, you may consider filing a complaint with the **Consumer Forum** (District/State) or approaching the **app’s grievance redressal** mechanism.  
+
+---
+
+### 7. Quick checklist you can copy‑paste
+
+```
+[ ] Ticket purchase receipt (date, amount, transaction ID)
+[ ] Organizer cancellation notice (date, source)
+[ ] App screenshot: “Refund started” (date & time)
+[ ] Bank/UPI statement showing no credit (latest)
+[ ] All email/chat correspondence with organizer/app
+[ ] Terms & Conditions of the ticketing app (refund clause)
+[ ] Draft of formal refund notice (with placeholders)
+[ ] Count of days from cancellation to today (check 6‑month limit)
+```
+
+---
+
+**What to do now?**  
+- Fill in the missing dates and gather the documents.  
+- Let me know once you have the timeline and any additional details (e.g., the exact refund amount promised, any response you received after contacting support).  
+- Then we can move on to **drafting a formal notice** or **planning the next legal step**.  
+
+Feel free to ask for help with any of the items above!
+
+You: 

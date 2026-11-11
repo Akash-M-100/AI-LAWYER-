@@ -1,0 +1,72 @@
+﻿AI Law Chatbot
+Type 'exit' to quit. Ask a question about the indexed legal materials.
+
+You: 
+Agent: **1. Facts you have provided**
+
+- You bought a new appliance (type / brand / model not specified).  
+- The appliance stopped working a few days after purchase.  
+- The shop told you to deal directly with the manufacturer.  
+- You have contacted the manufacturer, but the problem has not been fixed yet.
+
+**2. Ordered timeline (based on what you told me)**  
+
+| Date / Approx. | Event |
+|----------------|-------|
+| **Purchase** | Bought the appliance from the shop (receipt, invoice, etc.). |
+| **Few days later** | Appliance stopped working (describe the fault). |
+| **After failure** | Returned to the shop; shop advised you to approach the manufacturer. |
+| **Subsequent contact** | Contacted the manufacturer (date, method – phone/email/visit). |
+| **Current status** | Manufacturer has not repaired/replaced the appliance. |
+
+*(If you have exact dates, add them to the table.)*
+
+**3. Missing facts / focused follow‑up questions**
+
+| What I need to know | Why it matters |
+|---------------------|----------------|
+| Exact date of purchase and date the appliance failed | To establish the period of defect and any warranty/consumer‑protection time‑frame. |
+| Model, make, and price of the appliance | Helps identify the seller‑manufacturer relationship and the value of the claim. |
+| How you contacted the manufacturer (phone, email, service centre) and dates of each contact | To show that you gave the manufacturer a reasonable opportunity to remedy the defect. |
+| Any written communication from the shop or manufacturer (e.g., “please contact the manufacturer” notice, service ticket, warranty card) | Useful evidence of the parties’ positions and instructions. |
+| Whether you have a warranty (written warranty, guarantee, or “as‑is” sale) and its terms | Determines the statutory and contractual remedies available. |
+| Any repair attempts made by the manufacturer (what was done, who performed it, outcome) | Shows whether the defect has been remedied or remains unresolved. |
+| Copies of the purchase receipt, invoice, and any delivery note | Proof of purchase and that you are a “consumer” under the Consumer Protection Act. |
+| Any payment proof (cash receipt, bank statement, credit‑card statement) | Confirms the transaction value. |
+| Whether you have filed a complaint with a consumer forum or consumer association so far | Affects procedural posture (e.g., whether a complaint can still be filed). |
+
+**4. Relevant legal sources from the retrieved material**
+
+| Provision | Relevance to your situation |
+|-----------|-----------------------------|
+| Definition of **“defect”** – “any fault, imperfection or shortcoming … in the quality … required to be maintained … in relation to any goods” (section‑form‑formal‑texts.json) | The appliance that stopped working qualifies as a *defect* under the Consumer Protection Act. |
+| Definition of **“manufacturer”** – person who makes or assembles the goods or puts his mark on them (section‑form‑formal‑texts.json) | The party you are dealing with (the manufacturer) falls within this definition, so the Act’s provisions on manufacturer liability apply. |
+| Definition of **“consumer dispute”** – a dispute where the person against whom a complaint is made denies or disputes the allegations (section‑form‑formal‑texts.json) | Your claim against the shop/manufacturer will be treated as a consumer dispute under the Act. |
+| Definition of **“District Forum”** – the consumer‑disputes redressal forum at the district level (section‑form‑formal‑texts.json) | If you decide to file a complaint, the appropriate forum is the District Consumer Disputes Redressal Forum (for claims up to the monetary limit set by the Act). |
+| Section 4(4) (excerpt) – once a complaint is admitted by the District Forum it cannot be transferred to another court/tribunal (section‑texts.json) | Indicates that once you file a consumer‑forum complaint, the matter stays within that forum, protecting you from being shifted to a regular civil court. |
+
+**5. Evidence / documents you should gather and organize**
+
+1. **Purchase proof** – original receipt/invoice, payment proof, warranty card.  
+2. **Product details** – model number, serial number, any product brochure or specification sheet.  
+3. **Communication log** – dates, times, and copies of all emails, messages, or letters exchanged with the shop and the manufacturer; notes of phone calls (who you spoke to, what was said).  
+4. **Shop’s instruction** – any written note or email from the shop telling you to approach the manufacturer.  
+5. **Manufacturer’s response** – service ticket/repair order, any written acknowledgment of the defect, repair reports, or refusal letters.  
+6. **Photographs / videos** – showing the defect (e.g., the appliance not working, error messages).  
+7. **Consumer association involvement** (if any) – copies of complaints lodged with a recognized consumer association.  
+8. **Timeline sheet** – a simple table (like the one above) summarizing dates and events for quick reference.
+
+**6. Next step (your decision point)**  
+
+- Review the missing facts/questions above and collect the listed evidence.  
+- Once you have the complete timeline and documents, you can decide whether to:  
+  a) Request a repair/replacement directly from the manufacturer (with a formal notice), or  
+  b) File a consumer‑dispute complaint with the District Forum against the manufacturer (and possibly the shop, if they refused to honor the warranty).  
+
+**7. Focused follow‑up question for you**
+
+> Could you provide the exact purchase date, the model/brand of the appliance, and the dates (or at least the sequence) of your contacts with the shop and the manufacturer, along with any written communication you have received from them?
+
+Your answers will let us complete the timeline and pinpoint the most appropriate next action.
+
+You: 

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "case_01_order_not_delivered",
+    "question": "I ordered something online, but it never arrived. I asked for my money back and still haven't received it. What information should I collect, and what can I do next?"
+  },
+  {
+    "id": "case_02_defective_product",
+    "question": "I bought a new appliance and it stopped working a few days later. The shop says I have to deal with the manufacturer, and the manufacturer has not fixed it yet. Help me organize the facts before I decide what to ask for."
+  },
+  {
+    "id": "case_03_cancelled_event",
+    "question": "I paid for an event ticket, but the organizer cancelled the event. The ticketing app says a refund was started, but I still don't see the money. Help me prepare a clear summary and tell me what details to check."
+  }
+]

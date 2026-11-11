@@ -1,0 +1,77 @@
+﻿AI Law Chatbot
+Type 'exit' to quit. Ask a question about the indexed legal materials.
+
+You: 
+Agent: **1. Facts you have provided**
+
+- You placed an order for a product/service online.  
+- The item never arrived.  
+- You asked the seller for a refund.  
+- The seller has not returned the money.
+
+**2. Preliminary timeline (based on what you’ve said)**  
+
+| Date / Approx. period | Event |
+|-----------------------|-------|
+| *[date you placed the order]* | Order placed online (include order number, platform, seller name). |
+| *[date you expected delivery]* | Expected delivery date (as shown on the order confirmation). |
+| *[date you first noticed non‑delivery]* | First realization that the product had not arrived (e.g., after the delivery window closed). |
+| *[date you contacted the seller]* | You sent a refund request (email, chat, phone call – note the method and any reference number). |
+| *[date(s) of any follow‑up]* | Any further reminders or replies from the seller (include dates and content, if any). |
+| *Today* | You are still awaiting the refund. |
+
+*(Fill in the exact dates once you locate the documents.)*
+
+**3. Missing facts – focused questions to complete the intake note**
+
+| Information needed | Why it matters |
+|--------------------|----------------|
+| Exact date you placed the order and the order/reference number. | Establishes the contract date and helps locate the transaction. |
+| Name of the seller/merchant and the platform (e.g., Amazon, Flipkart, the seller’s own website). | Identifies the party you will be dealing with. |
+| Details of the product or service (description, price, quantity). | Confirms what was promised. |
+| Delivery terms shown at the time of purchase (e.g., “delivery within 7 days”). | Shows the seller’s contractual obligation. |
+| Copies of order confirmation, invoice, payment receipt, and any email/SMS confirmations. | Evidence of the contract and payment. |
+| All communications with the seller (emails, chat screenshots, call logs, letters). | Shows you asked for a refund and the seller’s response (or lack thereof). |
+| Payment method used (credit card, debit card, net‑banking, UPI, wallet) and transaction reference. | Needed for possible charge‑back or bank‑level dispute. |
+| Any “refund policy” displayed on the seller’s site at the time of purchase. | Helps assess whether the seller is breaching its own policy. |
+| Whether you have filed a complaint with the platform’s grievance cell (if applicable) and the outcome. | May be required before approaching consumer forums. |
+| Date you last contacted the seller and the latest reply (if any). | Establishes the current status and any further deadline you may have set. |
+
+**4. Evidence / documents to gather and organize**
+
+1. **Order Confirmation** – PDF/email showing order number, product details, price, and delivery promise.  
+2. **Payment Proof** – Bank statement, credit‑card statement, UPI receipt, or wallet transaction ID.  
+3. **Communication Log** – Chronological screenshots or print‑outs of:  
+   - Emails to the seller requesting refund.  
+   - Seller’s replies (or lack thereof).  
+   - Chat transcripts from the platform’s support.  
+   - Any phone call notes (date, time, summary).  
+4. **Refund Policy** – Screenshot of the seller’s refund/return policy at the time of purchase.  
+5. **Delivery Tracking** – If a tracking number was provided, print the tracking history showing “not delivered.”  
+6. **Complaint Records** – Acknowledgement numbers or emails from the e‑commerce platform’s grievance cell, if you raised a complaint there.  
+7. **Consumer Forum/Legal Notice Drafts** – If you have already drafted any notice, keep a copy for reference.
+
+**5. Relevant legal sources (from the retrieved material)**  
+
+The documents you provided from the court‑dataset do not contain provisions or precedents related to consumer purchases, non‑delivery, or refund rights under Indian law. Therefore, no specific statutes or case law can be cited from the supplied material for your situation.
+
+**6. Next steps you can consider (general guidance, no legal outcome implied)**  
+
+- **Compile the evidence** listed in section 4 in a single folder (digital or physical).  
+- **Send a formal written notice** to the seller (email or registered post) stating:  
+  - Your order details,  
+  - The breach (non‑delivery),  
+  - Your demand for a full refund,  
+  - A reasonable deadline (e.g., 7 days from receipt of the notice).  
+  - Mention that you will approach the appropriate consumer forum if the matter is not resolved.  
+- **If the seller is a marketplace participant**, also lodge a formal complaint through the marketplace’s grievance mechanism and keep the acknowledgment.  
+- **If no response is received** by the deadline, you may consider filing a complaint with the District Consumer Disputes Redressal Forum (D‑CDRF) having jurisdiction over your residence. For that, you will need the documents listed above.  
+- **Check your bank/UPI provider** for the possibility of a charge‑back or reversal, especially if the payment was made by card.  
+
+*(These steps are standard practice; they do not constitute legal advice.)*
+
+**7. Follow‑up question for you**
+
+> Could you provide the exact dates of the order, the expected delivery date, the date you first contacted the seller, and any copies of the communications you have exchanged with them? This will allow us to complete the timeline and ensure you have all the necessary evidence ready.
+
+You: 
