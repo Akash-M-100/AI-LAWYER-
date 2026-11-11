@@ -1,0 +1,6 @@
+chromadb
+langchain-chroma
+langchain-core
+langchain-groq
+langchain-text-splitters
+python-dotenv
