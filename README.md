@@ -58,14 +58,14 @@ source .venv/bin/activate
 
 ### 2. Install dependencies
 
-There is currently no dependency lockfile or requirements file. Install the packages imported by the project:
+Install the project's Python dependencies from the repository root:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install chromadb langchain-chroma langchain-core langchain-text-splitters langchain-groq python-dotenv
+python -m pip install -r requirements.txt
 ```
 
-For a reproducible environment, capture the versions that work on your machine with `python -m pip freeze > requirements.txt` and commit that file.
+`requirements.txt` lists the direct dependencies used by the knowledge-base builder and chat agents. For fully repeatable installs, pin and test dependency versions before adding version constraints.
 
 ### 3. Configure Groq
 
@@ -121,6 +121,7 @@ Ask a question at the `You:` prompt. Enter `exit` or `quit` to end the session. 
 ├── agent_multirag.py           # Multi-query retrieval CLI
 ├── build_knowledge_base.py     # Dataset parsing, chunking, and Chroma indexing
 ├── llm_client.py               # Groq client and environment configuration
+├── requirements.txt            # Python package dependencies
 ├── chroma_db/                  # Persistent local Chroma database and build manifest
 ├── *.json                      # Legal source and metadata files
 └── */**/*.jsonl.xz             # Compressed dataset records (where supplied)
@@ -163,7 +164,7 @@ The vector store uses the `kuku_legal_knowledge` collection. Both agents expect 
 - Retrieval quality depends on the supplied data, chunking, Chroma embedding defaults, and model output.
 - The application asks the model to ground responses in retrieved context, but this is not a formal guarantee that every statement is supported. Verify important claims against primary legal sources and consult a qualified lawyer.
 - Conversation history is held in process memory and is not persisted between runs.
-- The repository currently has no declared dependency versions, automated test suite, or CI configuration.
+- Dependencies are listed without pinned versions; there is no automated test suite or CI configuration.
 
 ## Security and data handling
 
