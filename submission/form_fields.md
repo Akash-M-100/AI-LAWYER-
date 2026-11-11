@@ -5,7 +5,7 @@ Fill these personal fields in the assignment form:
 - Name: ____________________
 - Roll number: ____________________
 - Branch: ____________________
-- Problem chosen: Problem 2 - AI lawyer; tenant rental/eviction intake note
+- Problem chosen: Problem 2 - AI lawyer; consumer purchase/service dispute intake note
 
 Links to use:
 

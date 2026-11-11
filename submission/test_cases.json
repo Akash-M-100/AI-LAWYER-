@@ -1,14 +1,14 @@
 [
   {
-    "id": "case_01_intake_notice",
-    "question": "I rent a flat in India. My landlord sent me a message saying I must leave in three days. Help me prepare an intake note for a lawyer. So far, I have not shared my lease terms, how the message was delivered, or the reason given."
+    "id": "case_01_order_not_delivered",
+    "question": "I ordered something online, but it never arrived. I asked for my money back and still haven't received it. What information should I collect, and what can I do next?"
   },
   {
-    "id": "case_02_rent_timeline",
-    "question": "I am a tenant in India. I paid rent by bank transfer, but my landlord says it was unpaid and is threatening to lock the door. Help me organize the facts and identify what details and documents are still needed. Do not assume what my lease says."
+    "id": "case_02_defective_product",
+    "question": "I bought a new appliance and it stopped working a few days later. The shop says I have to deal with the manufacturer, and the manufacturer has not fixed it yet. Help me organize the facts before I decide what to ask for."
   },
   {
-    "id": "case_03_unclear_facts",
-    "question": "My landlord says I broke the rental agreement and wants me out. I do not know which clause they mean. What should I collect and clarify before I ask a lawyer about my options?"
+    "id": "case_03_cancelled_event",
+    "question": "I paid for an event ticket, but the organizer cancelled the event. The ticketing app says a refund was started, but I still don't see the money. Help me prepare a clear summary and tell me what details to check."
   }
 ]

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Kuku Legal Intake Assistant - Solution Brief</title>
+<title>Kuku Consumer Dispute Intake Assistant - Solution Brief</title>
 <style>
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; }
@@ -37,31 +37,31 @@ a { color: #087f8c; text-decoration: none; }
 <body>
 <section class="page" id="page1">
   <div class="eyebrow">Kuku / Prototype brief</div>
-  <h1>Legal Intake Assistant</h1>
-  <p class="subtitle">Problem 2 - AI lawyer | One user, one step: organize a rental or eviction concern before a lawyer conversation</p>
+  <h1>Consumer Dispute Intake Assistant</h1>
+  <p class="subtitle">Problem 2 - AI lawyer | One step: organize a consumer purchase or paid-service dispute</p>
 
   <h2>The problem I chose</h2>
-  <p>A tenant facing a rental or eviction dispute may arrive at a lawyer conversation with a long story but no clear dates, payment trail, lease details, or evidence list. I chose the intake step: turn the person's own account into a concise note that is easier to review.</p>
-  <div class="callout"><p><b>Output:</b> stated facts, an ordered timeline, missing facts and focused questions, relevant retrieved legal material when available, and an evidence checklist. The assistant does not decide whether an eviction is lawful or predict an outcome.</p></div>
+  <p>A person with a consumer purchase or paid-service dispute may contact a seller, platform, or lawyer with a long story but no clear order dates, payment trail, refund status, or evidence list. The supplied example concerns an order not received and a missing refund. I chose the intake step: turn the person's account into a concise note that is easier to review.</p>
+  <div class="callout"><p><b>Output:</b> stated facts, an ordered timeline, missing facts and focused questions, relevant retrieved legal material when available, and an evidence checklist. The assistant does not decide liability, guarantee a refund, or predict an outcome.</p></div>
 
   <h2>How it works</h2>
   <div class="flow">
-    <div><b>1. User story</b>Tenant describes the issue and known facts in the CLI.</div>
+    <div><b>1. User story</b>Person describes the purchase or paid-service issue in the CLI.</div>
     <div><b>2. Retrieve</b>Chroma searches local legal chunks; the agent retrieves 3 passages per query.</div>
     <div><b>3. Draft</b>Groq receives the question and retrieved passages with a cautious system prompt.</div>
     <div><b>4. Reviewable note</b>Answer separates stated facts, gaps, sources, and evidence to gather.</div>
   </div>
-  <p>`build_knowledge_base.py` indexes locally supplied JSON and compressed JSONL files into Chroma, using 1,600-character chunks with 180-character overlap. `agent.py` can perform up to three retrieval steps. `agent_multirag.py` searches complementary query formulations. `llm_client.py` calls Groq. Conversation history lasts only for the current process.</p>
+  <p>`build_knowledge_base.py` indexes locally supplied JSON and compressed JSONL files into Chroma, using 1,600-character chunks with 180-character overlap. `agent.py` can perform up to three retrieval steps. `agent_multirag.py` searches complementary query formulations. `llm_client.py` calls Groq. Conversation history lasts only for the current process. The test folder contains non-delivery, defective-product, and cancelled-event scenarios.</p>
 
   <h2>Why this scope and the assumptions</h2>
   <ul>
-    <li>The project already contains a CLI, retrieval pipeline, and Indian legal material; the intake note makes one step concrete and checkable.</li>
-    <li>Assume the user's question concerns an Indian rental or eviction issue, the supplied facts are incomplete, and the local corpus may not cover every question.</li>
-    <li>Unknown details stay unknown. The assistant must not invent lease terms, notice rules, deadlines, evidence, or legal outcomes.</li>
+    <li>The project already contains a CLI and legal retrieval pipeline; a consumer-dispute intake note makes one step concrete and checkable.</li>
+    <li>Assume the user's question concerns an Indian consumer purchase or paid service, the supplied facts are incomplete, and the local corpus may not cover every question.</li>
+    <li>Unknown details stay unknown. The assistant must not invent contract terms, delivery/refund terms, deadlines, evidence, or legal outcomes.</li>
     <li>Kuku's assignment input pack is confidential: it is used locally and excluded from the public repository.</li>
   </ul>
   <p class="small">A lawyer or trained reviewer remains responsible for legal conclusions. This prototype gives general information, not legal advice.</p>
-  <div class="footer"><span>Kuku Legal Intake Assistant</span><span>1 / 2</span></div>
+  <div class="footer"><span>Kuku Consumer Dispute Intake Assistant</span><span>1 / 2</span></div>
 </section>
 
 <section class="page" id="page2">
@@ -70,7 +70,7 @@ a { color: #087f8c; text-decoration: none; }
   <p class="subtitle">Measure usefulness and factual safety with real intake work, not model confidence.</p>
 
   <h2>Pilot evaluation</h2>
-  <p>Run a pilot with 20 consented, anonymized rental-intake cases. A lawyer or trained reviewer compares each note with the original facts and retrieved sources. Record:</p>
+  <p>Run a pilot with 20 consented, anonymized consumer-intake cases across the three sample issue types. A lawyer or trained reviewer compares each note with the original facts and retrieved sources. Record:</p>
   <div class="metric">
     <div><b>Fidelity</b><br>Key facts retained; no material invented facts.</div>
     <div><b>Organization</b><br>Timeline order and useful missing questions.</div>
@@ -83,7 +83,7 @@ a { color: #087f8c; text-decoration: none; }
   <p>Reuse the same intake workflow for another issue type only after adding a reviewed source collection, issue-specific questions, and a human-approved evaluation set. Store jurisdiction and source-version metadata, re-index on controlled updates, and monitor retrieval relevance, unsupported-claim rate, latency, and cost. For higher volume, add managed vector storage, session-level access controls, and a reviewer queue. The current multi-query path uses about two model calls per question; iterative retrieval may use up to three. Actual spend depends on token volume and current provider pricing.</p>
 
   <h2>Current run and limitations</h2>
-  <p>The repository and code are prepared, but this submission run did not return an AI answer: the user-provided run reports Groq HTTP 403, “Access denied. Please check your network settings.” This environment also has no usable Python interpreter, so successful raw outputs could not be generated here. The exact reported error is included with three independent test prompts and a capture script. No quality target is claimed as met.</p>
+  <p>The repository and code are prepared, but this submission run did not return an AI answer: the user-provided run reports Groq HTTP 403, “Access denied. Please check your network settings.” This environment also has no usable Python interpreter, so successful raw outputs could not be generated here. The exact reported error is included with three consumer test prompts and a capture script. No quality target is claimed as met.</p>
   <ul>
     <li>CLI only; no deployed web app, authentication, persistent case files, or automated tests.</li>
     <li>Corpus coverage, chunking, embeddings, and model output can all limit answer quality.</li>
@@ -93,7 +93,7 @@ a { color: #087f8c; text-decoration: none; }
   <h2>Prototype</h2>
   <p><a href="https://github.com/Akash-M-100/AI-LAWYER-">github.com/Akash-M-100/AI-LAWYER-</a> <span class="tag">| Run steps: repository README</span></p>
   <p class="small">The submission form still needs the applicant's name, roll number, and branch. The repository link is the prototype; the assignment input pack is not included.</p>
-  <div class="footer"><span>Kuku Legal Intake Assistant</span><span>2 / 2</span></div>
+  <div class="footer"><span>Kuku Consumer Dispute Intake Assistant</span><span>2 / 2</span></div>
 </section>
 </body>
 </html>

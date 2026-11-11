@@ -176,3 +176,7 @@ No license file was present in the inspected project. Add a `LICENSE` before red
 ## Assignment submission
 
 The Problem 2 solution brief, test cases, raw-run status, and form checklist are in [`submission/`](submission/README.md). The assignment input pack is excluded from this repository and must remain private.
+
+## Sample legal problems
+
+[`problem_cases/`](problem_cases/README.md) contains three synthetic Indian consumer-dispute scenarios for trying the assistant: non-delivery/refund, a defective product, and a cancelled event/refund. Each includes facts to reveal only if the assistant asks and a checklist for reviewing its answer.
