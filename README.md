@@ -172,3 +172,7 @@ Keep API credentials in an untracked `.env` file or environment variable. The Gr
 ## License
 
 No license file was present in the inspected project. Add a `LICENSE` before redistributing the code, and confirm that any data you add is licensed for your intended use.
+
+## Assignment submission
+
+The Problem 2 solution brief, test cases, raw-run status, and form checklist are in [`submission/`](submission/README.md). The assignment input pack is excluded from this repository and must remain private.
