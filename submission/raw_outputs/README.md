@@ -1,5 +1,9 @@
-# Raw output status
+# Raw bot outputs
 
-`observed_groq_error.txt` preserves the exact error text supplied from a real run of this project. The original question was not included with that error, so it is not attributed to any of the test cases.
+These are unedited terminal transcripts from three separate `agent.py` runs on 11 November 2026. Each run received the first-message prompt from its matching file in `problem_cases/` and used the local Chroma collection and Groq model.
 
-No successful model output is included: the reported Groq request was rejected with HTTP 403, and the current execution environment has no usable Python interpreter. The three independent test inputs are in `../test_cases.json`. Once Python dependencies, the local knowledge base, and Groq access are available, run `../run_test_cases.ps1`; it writes the unedited terminal output for each case into a new time-stamped run folder without replacing previous output.
+- `01_order_not_delivered_refund_raw.txt`
+- `02_defective_product_raw.txt`
+- `03_cancelled_event_refund_raw.txt`
+
+The transcripts are raw model outputs, not legal advice or verified conclusions. In particular, the cancelled-event response generalizes a six-month limitation concept from unrelated railway material despite acknowledging that the corpus does not directly cover event tickets. Treat this as a retrieval and grounding failure, not as a legal recommendation.

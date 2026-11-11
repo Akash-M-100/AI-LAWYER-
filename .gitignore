@@ -24,6 +24,9 @@ synthetic-layman-dataset-*/
 /section-texts.json
 /section_title.txt
 
+# Bot answers may quote confidential source passages; review before sharing
+problem_cases/outputs/
+
 
 # Editor and operating-system files
 .vscode/

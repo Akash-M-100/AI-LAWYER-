@@ -2,6 +2,14 @@
 
 Use these synthetic scenarios to try the legal assistant. Each file contains a first message, additional facts to reveal only if the assistant asks, and a checklist for reviewing the response. They are prompts, not legal advice or verified legal conclusions.
 
+To run all three first messages through the bot and save the actual terminal transcripts, open PowerShell at the project root and run:
+
+```powershell
+.\problem_cases\run_problem_cases.ps1
+```
+
+The script starts a fresh `agent.py` process for each case and writes each unedited transcript to a timestamped folder under `problem_cases/outputs/`. It uses the local `.env` and Chroma database in the project root. Build the knowledge base first if `chroma_db` is missing. Output files are ignored by Git by default so you can review them before sharing.
+
 | Case | Issue | What to check |
 | --- | --- | --- |
 | [01 - Order not delivered](01_order_not_delivered_refund.md) | Online purchase and missing refund | Does the assistant organize the order/payment/contact timeline and ask for the seller, terms, and proof? |

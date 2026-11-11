@@ -14,6 +14,6 @@ Links to use:
 - Raw outputs: `submission/raw_outputs/` in the prototype repository
 - Walkthrough video: optional; no video has been recorded
 
-The raw-output folder currently documents a real Groq 403 failure and the
-reproducible test cases. Successful AI outputs still need to be captured after
-the local Python environment, knowledge base, and Groq network access work.
+The raw-output folder contains the unedited transcripts from three real bot
+runs. One response contains an unsupported legal generalization; this known
+failure is described in the raw-output README.

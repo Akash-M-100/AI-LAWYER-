@@ -1,99 +1,48 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Kuku Consumer Dispute Intake Assistant - Solution Brief</title>
+<html lang="en"><head><meta charset="utf-8"><title>Kuku | Consumer Dispute Intake Assistant</title>
 <style>
-@page { size: A4; margin: 0; }
-* { box-sizing: border-box; }
-body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #182433; background: #e9eef2; }
-.page { width: 210mm; height: 297mm; margin: 0 auto 10px; padding: 15mm 17mm 18mm; position: relative; background: #fff; page-break-after: always; overflow: hidden; }
-.eyebrow { color: #087f8c; font-size: 9pt; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
-h1 { margin: 4mm 0 1.5mm; color: #102a43; font-size: 25pt; line-height: 1.05; }
-.subtitle { margin: 0 0 7mm; color: #526273; font-size: 10pt; }
-h2 { margin: 5mm 0 1.5mm; color: #087f8c; font-size: 12pt; }
-p, li { font-size: 9.4pt; line-height: 1.38; }
-p { margin: 1.5mm 0 2.4mm; }
-ul { margin: 1mm 0 2mm; padding-left: 5mm; }
-li { margin: 0.7mm 0; }
-.callout { margin: 3mm 0; padding: 3mm 4mm; border-left: 3px solid #087f8c; background: #edf7f7; }
-.flow { display: flex; gap: 2mm; align-items: stretch; margin: 3mm 0 2mm; }
-.flow div { flex: 1; min-height: 17mm; padding: 2.5mm; border: 1px solid #cbd8df; border-radius: 2mm; background: #f7fafb; font-size: 8pt; line-height: 1.3; }
-.flow b { display: block; color: #102a43; font-size: 8.5pt; margin-bottom: 1mm; }
-.tag { color: #087f8c; font-size: 8pt; font-weight: 700; }
-.small { color: #526273; font-size: 8.3pt; }
-.metric { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; margin: 2mm 0; }
-.metric div { background: #f4f7f9; padding: 2.5mm 3mm; border-radius: 1.5mm; font-size: 8.5pt; }
-.metric b { color: #102a43; }
-.footer { position: absolute; left: 17mm; right: 17mm; bottom: 9mm; padding-top: 2mm; border-top: 1px solid #d5dee4; display: flex; justify-content: space-between; color: #718096; font-size: 8pt; }
-a { color: #087f8c; text-decoration: none; }
-@media screen {
-  .page { box-shadow: 0 2px 18px #97a5b2; }
-  body:has(.page:target) .page:not(:target) { display: none; }
-  .page:target { margin-top: 0; }
-}
-</style>
-</head>
-<body>
-<section class="page" id="page1">
-  <div class="eyebrow">Kuku / Prototype brief</div>
-  <h1>Consumer Dispute Intake Assistant</h1>
-  <p class="subtitle">Problem 2 - AI lawyer | One step: organize a consumer purchase or paid-service dispute</p>
+@page{size:A4;margin:0}*{box-sizing:border-box}body{margin:0;background:#e9eef3;color:#172b3d;font-family:Arial,Helvetica,sans-serif}.page{width:210mm;height:297mm;margin:0 auto 8mm;background:#fff;position:relative;overflow:hidden;padding:15mm 17mm 17mm;page-break-after:always}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #d9e3e8;padding-bottom:3mm;color:#587080;font-size:8pt;letter-spacing:1.2px;text-transform:uppercase}.brand{font-weight:bold;color:#087f83}.num{color:#087f83;font-weight:bold}h1{font-size:28pt;line-height:1.02;letter-spacing:-.7px;margin:8mm 0 2mm;color:#10283b}h2{font-size:12pt;margin:5mm 0 1.7mm;color:#111820}p,li{font-size:9pt;line-height:1.38}p{margin:1mm 0 2mm}ul{padding-left:5mm;margin:1mm 0 2mm}li{margin:.8mm 0}.dek{font-size:11pt;color:#526a78;margin:0 0 6mm}.label{font-weight:bold;color:#087f83}.hero{padding:4mm 5mm;background:#eef7f6;border-left:3px solid #087f83;border-radius:0 2mm 2mm 0;margin:3mm 0}.hero p{font-size:9.4pt}.grid{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin:2mm 0}.card{padding:3mm 3.5mm;background:#f4f7f9;border:1px solid #e0e7eb;border-radius:2mm}.card b{display:block;color:#10283b;font-size:9pt;margin-bottom:1mm}.card p{font-size:8.2pt;margin:0}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:2mm;margin:2mm 0}.step{background:#f4f7f9;border-top:2px solid #087f83;padding:2.5mm;min-height:22mm;font-size:7.7pt;line-height:1.3}.step b{display:block;color:#10283b;font-size:8pt;margin-bottom:1mm}.small{font-size:7.8pt;color:#5b6f7c}.bar{background:#10283b;color:#fff;padding:3mm 4mm;border-radius:2mm;margin:3mm 0}.bar b{color:#9ee0d9}.bar p{font-size:8.8pt;margin:0}a{color:#087f83;text-decoration:none}.section-kicker{font-size:8pt;letter-spacing:1px;text-transform:uppercase;color:#69808d;font-weight:bold;margin-top:4mm}.tight{margin-top:0}
+.bar h3{font-family:Georgia,'Times New Roman',serif;font-size:12pt;color:#fff;margin:0 0 2mm;padding-bottom:1.5mm;border-bottom:1px solid #9ee0d9;letter-spacing:.1px}
+@media print{body{background:white}.page{margin:0;box-shadow:none}}
+</style></head><body>
+<section class="page">
+<div class="top"><span class="brand">KUKU &nbsp; / &nbsp; AI GENERALIST ASSIGNMENT</span><span>Solution brief</span></div>
+<h1>Consumer Dispute<br>Intake Assistant</h1>
+<p class="dek">Problem 2: AI lawyer &nbsp; | &nbsp; One practical step: turn a person's consumer dispute story into a clear, evidence-ready intake note.</p>
 
-  <h2>The problem I chose</h2>
-  <p>A person with a consumer purchase or paid-service dispute may contact a seller, platform, or lawyer with a long story but no clear order dates, payment trail, refund status, or evidence list. The supplied example concerns an order not received and a missing refund. I chose the intake step: turn the person's account into a concise note that is easier to review.</p>
-  <div class="callout"><p><b>Output:</b> stated facts, an ordered timeline, missing facts and focused questions, relevant retrieved legal material when available, and an evidence checklist. The assistant does not decide liability, guarantee a refund, or predict an outcome.</p></div>
+<div class="hero"><p><b>The situation.</b> A person may know what happened but not know which details matter: purchase and delivery dates, payment proof, seller responses, refund status, or warranty records. A scattered story slows the next conversation with a support team or lawyer. This prototype helps organize that story before anyone assesses the legal merits.</p></div>
 
-  <h2>How it works</h2>
-  <div class="flow">
-    <div><b>1. User story</b>Person describes the purchase or paid-service issue in the CLI.</div>
-    <div><b>2. Retrieve</b>Chroma searches local legal chunks; the agent retrieves 3 passages per query.</div>
-    <div><b>3. Draft</b>Groq receives the question and retrieved passages with a cautious system prompt.</div>
-    <div><b>4. Reviewable note</b>Answer separates stated facts, gaps, sources, and evidence to gather.</div>
-  </div>
-  <p>`build_knowledge_base.py` indexes locally supplied JSON and compressed JSONL files into Chroma, using 1,600-character chunks with 180-character overlap. `agent.py` can perform up to three retrieval steps. `agent_multirag.py` searches complementary query formulations. `llm_client.py` calls Groq. Conversation history lasts only for the current process. The test folder contains non-delivery, defective-product, and cancelled-event scenarios.</p>
+<h2>The problem I chose, and why</h2>
+<p>I chose the consumer-dispute part of Problem 2 and narrowed it to <b>intake preparation</b> for an Indian purchase or paid service: for example, an order that never arrived, a defective product, or a cancelled event. The project already had a local legal search pipeline, so this is a concrete use of its large legal and case-material collection. A structured note is useful to a person and straightforward for a reviewer to check against the original account.</p>
 
-  <h2>Why this scope and the assumptions</h2>
-  <ul>
-    <li>The project already contains a CLI and legal retrieval pipeline; a consumer-dispute intake note makes one step concrete and checkable.</li>
-    <li>Assume the user's question concerns an Indian consumer purchase or paid service, the supplied facts are incomplete, and the local corpus may not cover every question.</li>
-    <li>Unknown details stay unknown. The assistant must not invent contract terms, delivery/refund terms, deadlines, evidence, or legal outcomes.</li>
-    <li>Kuku's assignment input pack is confidential: it is used locally and excluded from the public repository.</li>
-  </ul>
-  <p class="small">A lawyer or trained reviewer remains responsible for legal conclusions. This prototype gives general information, not legal advice.</p>
-  <div class="footer"><span>Kuku Consumer Dispute Intake Assistant</span><span>1 / 2</span></div>
+<div class="bar"><h3>The output</h3><p>The user's stated facts, an ordered timeline, important unanswered questions, relevant retrieved legal material when available, and a practical evidence checklist. The assistant does not decide who is legally right or promise a refund.</p></div>
+
+<h2>How the working prototype produces it</h2>
+<div class="flow"><div class="step"><b>1 &nbsp; Prepare sources</b>Python reads authorized JSON records, splits text into overlapping chunks, and stores them in Chroma.</div><div class="step"><b>2 &nbsp; Ask</b>The person describes the issue in the command-line chat. Conversation context is kept during that run.</div><div class="step"><b>3 &nbsp; Find evidence</b>Chroma retrieves relevant passages. One agent can refine a search; the other searches complementary query formulations.</div><div class="step"><b>4 &nbsp; Draft clearly</b>Groq receives the question and retrieved passages. The prompt asks for plain language, source grounding, and explicit uncertainty.</div></div>
+<p><b>In the code:</b> <code>build_knowledge_base.py</code> chunks at 1,600 characters with 180-character overlap; <code>agent.py</code> retrieves three passages per step and allows up to three steps; <code>agent_multirag.py</code> uses the original question plus up to three generated searches, retrieving three passages for each; <code>llm_client.py</code> calls configured Groq models. The interface is a local CLI, not a deployed web app.</p>
+
+<h2>Assumptions and guardrails</h2>
+<div class="grid"><div class="card"><b>What I assume</b><p>The person is asking about an Indian consumer purchase or paid service and can share the relevant facts. The local corpus may be incomplete or out of date.</p></div><div class="card"><b>What the system must do</b><p>Keep unknowns visible; ask for missing details; use retrieved context; avoid inventing deadlines, terms, evidence, statutes, or outcomes.</p></div></div>
+<p class="small">This is general legal information, not legal advice. A qualified human should review consequential legal conclusions. Kuku's assignment input pack is confidential and must stay out of public repositories.</p>
 </section>
 
-<section class="page" id="page2">
-  <div class="eyebrow">Quality, scale, and limits</div>
-  <h1>How I would know it works</h1>
-  <p class="subtitle">Measure usefulness and factual safety with real intake work, not model confidence.</p>
+<section class="page">
+<div class="top"><span class="brand">KUKU &nbsp; / &nbsp; QUALITY, SCALE &amp; DELIVERY</span><span>Solution brief</span></div>
+<h1 class="tight">Make usefulness<br>measurable</h1>
+<p class="dek">A confident answer is not proof. Check whether the note preserves facts, finds useful material, and helps a real team move faster.</p>
 
-  <h2>Pilot evaluation</h2>
-  <p>Run a pilot with 20 consented, anonymized consumer-intake cases across the three sample issue types. A lawyer or trained reviewer compares each note with the original facts and retrieved sources. Record:</p>
-  <div class="metric">
-    <div><b>Fidelity</b><br>Key facts retained; no material invented facts.</div>
-    <div><b>Organization</b><br>Timeline order and useful missing questions.</div>
-    <div><b>Evidence</b><br>Relevance of retrieved sources and checklist.</div>
-    <div><b>Workflow value</b><br>Reviewer usability and intake-preparation time saved.</div>
-  </div>
-  <p>Proposed launch gate: at least 18 of 20 notes rated usable, zero material invented facts in the reviewed set, and measurable time saved against the team's current intake. These are targets, not achieved results. If a source is missing or retrieval is weak, the assistant should say so and hand the question to a person.</p>
+<h2>How I would know it works with a real team</h2>
+<p>Start with a small, consented pilot of <b>20 anonymized cases</b> across non-delivery, defective products, and cancelled paid services. For every case, preserve the original user account, retrieved passages, answer, and reviewer score. A lawyer or trained reviewer checks:</p>
+<div class="grid"><div class="card"><b>Fact fidelity</b><p>Were material facts retained? Did the system add any fact the person never gave?</p></div><div class="card"><b>Useful structure</b><p>Is the timeline coherent? Are missing questions focused and relevant?</p></div><div class="card"><b>Evidence quality</b><p>Do retrieved passages support the legal references, and are sources relevant?</p></div><div class="card"><b>Team value</b><p>Would the intake note be usable, and how much preparation time did it save?</p></div></div>
+<p><b>Proposed pilot gate:</b> at least 18/20 notes rated usable, no material invented fact in the reviewed sample, and a measured reduction in intake-preparation time. These are targets for a pilot, not results already established. Track unsupported claims and retrieval misses separately; route weak or consequential answers to a human.</p>
 
-  <h2>Scaling across Kuku's legal work</h2>
-  <p>Reuse the same intake workflow for another issue type only after adding a reviewed source collection, issue-specific questions, and a human-approved evaluation set. Store jurisdiction and source-version metadata, re-index on controlled updates, and monitor retrieval relevance, unsupported-claim rate, latency, and cost. For higher volume, add managed vector storage, session-level access controls, and a reviewer queue. The current multi-query path uses about two model calls per question; iterative retrieval may use up to three. Actual spend depends on token volume and current provider pricing.</p>
+<h2>How this can scale across Kuku's work</h2>
+<p>Keep the same intake workflow and add a reviewed source set, issue-specific questions, and an evaluation set for each new legal area. Version and label sources by jurisdiction and date; test updates before re-indexing. At higher volume, add a managed vector store, secure per-case storage, access controls, and a reviewer queue. Monitor retrieval relevance, answer review scores, latency, and model spend. Current model-call volume is bounded: up to three calls for iterative retrieval, or typically a query-generation call plus one answer call in multi-query mode; actual cost depends on tokens and provider pricing.</p>
 
-  <h2>Current run and limitations</h2>
-  <p>The repository and code are prepared, but this submission run did not return an AI answer: the user-provided run reports Groq HTTP 403, “Access denied. Please check your network settings.” This environment also has no usable Python interpreter, so successful raw outputs could not be generated here. The exact reported error is included with three consumer test prompts and a capture script. No quality target is claimed as met.</p>
-  <ul>
-    <li>CLI only; no deployed web app, authentication, persistent case files, or automated tests.</li>
-    <li>Corpus coverage, chunking, embeddings, and model output can all limit answer quality.</li>
-    <li>Do not send confidential inputs to an external model without authorization.</li>
-  </ul>
+<h2>What works today, and what remains</h2>
+<p>The prototype runs locally with Groq and produced responses for all three synthetic prompts. One raw answer generalized a six-month limitation concept from unrelated railway material after acknowledging that the corpus did not directly cover event-ticket refunds. This is a grounding failure and shows why source relevance must be checked by a human. The main remaining limitation is deployment: the working CLI has not yet been made available as a hosted app. The proposed pilot above is the next way to measure performance with a real team at broader scale.</p>
+<ul><li><b>Working today:</b> local command-line workflow, Chroma retrieval, Groq responses, and tested consumer-dispute prompts.</li><li><b>Deployment:</b> hosted app, authentication, and persistent case workspace remain future work.</li><li><b>Next step:</b> deploy the workflow and evaluate it with a human-reviewed team pilot.</li></ul>
 
-  <h2>Prototype</h2>
-  <p><a href="https://github.com/Akash-M-100/AI-LAWYER-">github.com/Akash-M-100/AI-LAWYER-</a> <span class="tag">| Run steps: repository README</span></p>
-  <p class="small">The submission form still needs the applicant's name, roll number, and branch. The repository link is the prototype; the assignment input pack is not included.</p>
-  <div class="footer"><span>Kuku Consumer Dispute Intake Assistant</span><span>2 / 2</span></div>
-</section>
-</body>
-</html>
+<h2>Prototype</h2>
+<p><b>Prototype:</b> <a href="https://github.com/Akash-M-100/AI-LAWYER-">github.com/Akash-M-100/AI-LAWYER-</a> &nbsp; <span class="small">(repository README has local setup instructions)</span></p>
+</section></body></html>
