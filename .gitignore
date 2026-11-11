@@ -13,6 +13,18 @@ __pycache__/
 # Local vector database (rebuild with build_knowledge_base.py)
 chroma_db/
 
+# Kuku assignment input pack: use locally, never publish or share
+court-dataset-*/
+Layman-*/
+synthetic-layman-dataset-*/
+/id-act-meta.json
+/id-section-meta.json
+/queries_to_annotate.json
+/section-formal-texts.json
+/section-texts.json
+/section_title.txt
+
+
 # Editor and operating-system files
 .vscode/
 .idea/

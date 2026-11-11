@@ -31,8 +31,8 @@ flowchart LR
 
 - Python 3.10 or newer is recommended.
 - A Groq API key with access to at least one configured model.
-- The source datasets listed below, or your own compatible legal JSON/JSONL.XZ files.
-- Disk space for the indexed vector database. The included `chroma_db` directory is already about 150 MB and can be rebuilt from the source data.
+- A legally authorized JSON/JSONL.XZ corpus placed locally in the project root or nested folders. Kuku's assignment input pack is excluded from this public repository and must not be published or shared.
+- Disk space for the generated Chroma vector database, which can be rebuilt locally from your source data.
 
 ## Quick start
 
@@ -87,7 +87,7 @@ GROQ_MODELS=your-supported-model,another-supported-model
 python build_knowledge_base.py
 ```
 
-The builder reads eligible `*.json` files in the repository root (except `queries_to_annotate.json`, `id-act-meta.json`, and `id-section-meta.json`) and recursively reads `*.jsonl.xz` dataset files under the project directory. It creates/updates `chroma_db` and records source file fingerprints in `chroma_db/build_manifest.json` so unchanged files can be skipped on later runs.
+The builder reads eligible `*.json` files in the repository root (except `queries_to_annotate.json`, `id-act-meta.json`, and `id-section-meta.json`) and recursively reads `*.jsonl.xz` files under the project directory. Add only data you are authorized to use. The assignment input pack is intentionally excluded from Git and must remain private. The builder creates/updates `chroma_db` and records source file fingerprints in `chroma_db/build_manifest.json` so unchanged files can be skipped on later runs.
 
 Force a clean re-index after changing parsing or chunking behavior:
 
@@ -122,12 +122,11 @@ Ask a question at the `You:` prompt. Enter `exit` or `quit` to end the session. 
 ├── build_knowledge_base.py     # Dataset parsing, chunking, and Chroma indexing
 ├── llm_client.py               # Groq client and environment configuration
 ├── requirements.txt            # Python package dependencies
-├── chroma_db/                  # Persistent local Chroma database and build manifest
-├── *.json                      # Legal source and metadata files
-└── */**/*.jsonl.xz             # Compressed dataset records (where supplied)
+├── chroma_db/                  # Generated locally; ignored by Git
+└── local legal inputs          # Supply authorized JSON / JSONL.XZ files; ignored by Git
 ```
 
-The checked-out project may contain large source datasets. They are inputs to indexing, not Python dependencies. The builder only indexes root-level JSON files and recursively discovered `.jsonl.xz` files; nested ordinary `.json` files are not included by its current implementation.
+The builder only indexes root-level JSON files and recursively discovered `.jsonl.xz` files; nested ordinary `.json` files are not included by its current implementation.
 
 ## Components
 
@@ -168,8 +167,8 @@ The vector store uses the `kuku_legal_knowledge` collection. Both agents expect 
 
 ## Security and data handling
 
-Keep API credentials in an untracked `.env` file or environment variable. The Groq API receives the question and retrieved passages as prompts. Do not index or submit confidential or personally sensitive material unless you have reviewed the provider's data handling terms and have authorization to do so.
+Keep API credentials in an untracked `.env` file or environment variable. The Groq API receives the question and retrieved passages as prompts. Do not publish Kuku's assignment input pack or other confidential/personal data. For live use, confirm you have authorization to send selected text to Groq and review the provider's data handling terms.
 
 ## License
 
-No license file was present in the inspected project. Add a `LICENSE` before redistributing the code or datasets, and confirm that the source datasets permit your intended use.
+No license file was present in the inspected project. Add a `LICENSE` before redistributing the code, and confirm that any data you add is licensed for your intended use.

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "case_01_intake_notice",
+    "question": "I rent a flat in India. My landlord sent me a message saying I must leave in three days. Help me prepare an intake note for a lawyer. So far, I have not shared my lease terms, how the message was delivered, or the reason given."
+  },
+  {
+    "id": "case_02_rent_timeline",
+    "question": "I am a tenant in India. I paid rent by bank transfer, but my landlord says it was unpaid and is threatening to lock the door. Help me organize the facts and identify what details and documents are still needed. Do not assume what my lease says."
+  },
+  {
+    "id": "case_03_unclear_facts",
+    "question": "My landlord says I broke the rental agreement and wants me out. I do not know which clause they mean. What should I collect and clarify before I ask a lawyer about my options?"
+  }
+]
